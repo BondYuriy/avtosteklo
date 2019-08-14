@@ -1,0 +1,50 @@
+.nav.navbar-nav {
+  margin-left: 115px;
+}
+
+.navbar-inverse {
+  background: #000 url(images/navy_blue.jpg);
+  border-color: transparent;
+  min-height: auto;
+}
+
+.navbar-inverse .navbar-brand {
+  font-size: 50px;
+  line-height: 31px;
+  height: auto;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar-inverse .navbar-brand span {
+  font-size: 13px;
+  display: block;
+}
+
+.navbar-inverse .navbar-nav > li {
+  padding: 20px 10px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+  font-size: 16px;
+  background: transparent;
+  text-transform: uppercase;
+  padding: 5px 0px;
+  border-bottom: 3px solid #fff;
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+  background: transparent;
+  border-bottom: 3px solid red;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+  color: red;
+  border-bottom: 3px solid red;
+}

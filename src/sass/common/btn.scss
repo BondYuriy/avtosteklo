@@ -1,0 +1,45 @@
+.btn {
+  border: 0;
+  padding: 0;
+  border-radius: 0;
+}
+
+.btn-primary {
+  min-height: 19px;
+  background-color: #98ca57;
+  border-color: #98ca57;
+  border-radius: 0px;
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary:active.focus,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.open > .dropdown-toggle.btn-primary.focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.open > .dropdown-toggle.btn-primary:hover {
+  border: 0;
+  color: #fff;
+  background-color: #414141;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+  outline: none;
+}
+
+.btn-primary:hover {
+  background: #414141;
+}
