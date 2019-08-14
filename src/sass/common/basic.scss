@@ -5,9 +5,14 @@
 
 body {
   font-family: $Open-Sans;
-  font-weight: $Regular;
+  font-weight: $light;
   font-size: $font-text;
   color: $text-color;
+}
+
+.col-centered {
+  float: none;
+  margin: 0 auto;
 }
 
 ul,

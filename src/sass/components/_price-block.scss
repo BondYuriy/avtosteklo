@@ -24,7 +24,7 @@
     content: "";
     display: block;
     width: 146px;
-    height: 450px;
+    height: 100%;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
     border: 1px solid #b8babc;
     background-color: #d0d0d0;
@@ -82,4 +82,8 @@
       color: #ed0000;
     }
   }
+}
+
+.sale-style ul li:before {
+  height: 2850px;
 }

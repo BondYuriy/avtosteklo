@@ -905,9 +905,14 @@ svg) {
 
 body {
 	font-family: "Open Sans", sans-serif;
-	font-weight: 400;
-	font-size: 14px;
+	font-weight: 300;
+	font-size: 16px;
 	color: #333333;
+}
+
+.col-centered {
+	float: none;
+	margin: 0 auto;
 }
 
 ul,
@@ -1170,7 +1175,7 @@ a:hover {
 	content: "";
 	display: block;
 	width: 146px;
-	height: 450px;
+	height: 100%;
 	box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
 	border: 1px solid #b8babc;
 	background-color: #d0d0d0;
@@ -1228,6 +1233,10 @@ a:hover {
 .table-price-text a:hover {
 	text-decoration: none;
 	color: #ed0000;
+}
+
+.sale-style ul li:before {
+	height: 2850px;
 }
 
 .contact-box {
@@ -1347,6 +1356,66 @@ a:hover {
 	background-color: white;
 }
 
+.article-block {
+	padding: 120px 0 70px 0;
+}
+
+.article-img {
+	margin-bottom: 80px;
+}
+
+.article-img img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.reviews-box .reviews-post {
+	width: 50%;
+	margin: auto;
+}
+
+.reviews-box .reviews-post .title {
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 400;
+	background-color: #050505;
+	line-height: 22px;
+	padding: 10px 15px;
+	color: #fff;
+}
+
+.reviews-box .reviews-post p {
+	background-color: rgba(224, 224, 226, 0.5);
+	padding: 10px 10px 23px 10px;
+	font-style: italic;
+}
+
+.article-info {
+	padding: 15px;
+	background-color: rgba(5, 5, 5, 0.1);
+}
+
+.article-info .title {
+	font-size: 16px;
+	font-weight: 800;
+	margin: 0 0 15px 0;
+}
+
+.article-info ul {
+	margin-bottom: 15px;
+	padding-left: 20px;
+}
+
+.article-info ul li {
+	line-height: 30px;
+	font-weight: 400;
+}
+
+.article-info p strong {
+	font-weight: 400;
+}
+
 .jumbotron {
 	background: url(images/12.jpg) center no-repeat;
 	background-size: cover;
@@ -1458,6 +1527,12 @@ a:hover {
 	font-size: 18px;
 }
 
+.order-line-btn {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
 .contact_ico {
 	display: flex;
 	justify-content: center;
@@ -1475,6 +1550,42 @@ a:hover {
 .contact_ico a .fa {
 	margin: 0;
 	font-size: 24px;
+}
+
+.info-box {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 50px 0;
+}
+
+.info-box p {
+	flex: 0 0 60%;
+	font-size: 22px;
+	font-style: italic;
+	line-height: 40px;
+	margin-right: 30px;
+}
+
+.info-box .img-left {
+	flex: 0 0 54px;
+	height: 48px;
+	margin-right: 30px;
+	align-self: center;
+}
+
+.info-box .img-cloud {
+	flex: 0 0 125px;
+	margin-right: 30px;
+}
+
+.info-box .img-bottom {
+	flex: 0 0 54px;
+	height: 48px;
+	margin-left: 30px;
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+	margin-top: 20px;
 }
 
 @media (print), (prefers-reduced-motion) {
