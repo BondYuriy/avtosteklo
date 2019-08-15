@@ -981,7 +981,7 @@ a:hover {
 }
 
 .navbar-inverse {
-	background: #000 url(images/navy_blue.jpg);
+	background: #000 url(../img/navy_blue.jpg);
 	border-color: transparent;
 	min-height: auto;
 }
@@ -1240,7 +1240,7 @@ a:hover {
 }
 
 .contact-box {
-	background-color: #000;
+	background: #000 url(../img/navy_blue.jpg);
 	padding: 30px 0;
 }
 
@@ -1441,7 +1441,7 @@ a:hover {
 }
 
 .jumbotron {
-	background: url(images/12.jpg) center no-repeat;
+	background: url(../img/12.jpg) center no-repeat;
 	background-size: cover;
 	min-height: 700px;
 	position: relative;
@@ -1535,7 +1535,7 @@ a:hover {
 }
 
 .order-line {
-	background: #000 url(images/navy_blue.jpg);
+	background: #000 url(../img/navy_blue.jpg);
 	height: auto;
 	text-align: center;
 	margin: 40px 0px;
