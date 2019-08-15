@@ -1,0 +1,17 @@
+.small-info-block {
+  display: flex;
+
+  & .small-img-box {
+    flex: 0 0 30%;
+
+    & img {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  & .small-info-box {
+    padding: 15px;
+    background-color: #f6f6f6;
+  }
+}

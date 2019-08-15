@@ -3,7 +3,13 @@
 }
 
 .article-img {
+  width: 510px;
+  overflow: hidden;
   margin-bottom: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
 
   & img {
     display: block;

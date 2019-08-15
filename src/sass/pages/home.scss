@@ -87,10 +87,6 @@
   text-align: center;
 }
 
-.table-block img {
-  margin: 20px auto;
-}
-
 .table-block .col-md-4 h4 {
   font-weight: 300;
   font-size: 20px;
@@ -132,4 +128,21 @@
 .contact_ico a .fa {
   margin: 0;
   font-size: 24px;
+}
+
+.img-block {
+  width: 280px;
+  height: 200px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border: 1px solid #050505;
+
+  & img {
+    display: block;
+    width: 100%;
+    min-height: 200px;
+  }
 }
